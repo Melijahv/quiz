@@ -1,1 +1,79 @@
+body {
+    
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+    background-color: #eff5f8;
+    
+  }
+  button{
 
+    border-radius: 10px;
+    background-color: rgb(182, 132, 230)
+
+  }
+  #holder
+  {
+    position: relative;
+    float: left;
+    
+  }
+  .main{
+    justify-self:auto;
+
+  }
+  .container {
+    
+    position: relative;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80vw;
+    background-color: #f0ead6;
+    padding-top: 20px;
+  }
+
+ 
+  .carouselbox {
+    display:block;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    padding-bottom: 40px;
+  }
+       
+  .wrapper {
+    padding-bottom: 30px;
+  }
+
+  .usrSlct{
+
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+
+  }
+  #jepordy{
+
+    font-size: 16px;
+
+  }
+
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+  }
+  
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
