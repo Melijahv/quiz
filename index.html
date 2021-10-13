@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript Timed Quiz</title>
+    <link rel="stylesheet" href="./assets/style/mainstyle.css" />
+  </head>
+  <body>
+   
+    <div id = "main">
+        <div id = "topBar">
+            <p id = "highScore">High Score : </p>
+        <h1 class="welcome">Javascript Quiz</h1>
+        <div id = "ruleBar">
+            <p id = "rules">
+               
+                These are the rules
+                You have 60 seconds to 
+                correctly answer as many 
+                question that you can.
+                -10s for incorrect answers.
+                
+
+            </p>
+        </div>
+        <div class="container">
+
+            <div class="wrapper">
+                <h2 id="countdown"></h2>
+                <p id="end"></p>
+                <div class="card">
+                    <h2 id = "jepordy"name = "carl">Quiz Time!</h2>
+                    
+                    <div id= "gameSpace">
+                        <button class="start" id = "start">Start</button>
+                    </div>
+                </div>
+                <p id ="notice" class="fade-In"></p>
+                <p>Score: <span id="scoreBoard" value = "">0</span></p>
+            </div> 
+        </div>
+    </div>
+    <script src="./assets/javascript/mainscript.js"></script>
+  </body>
+</html>
